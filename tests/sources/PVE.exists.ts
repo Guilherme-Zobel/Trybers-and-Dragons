@@ -1,4 +1,4 @@
-import { PVE } from '../../src/Races';
+import { PVE } from '../../src/Battle';
 import Character from '../../src/Character';
 import Monster from '../../src/Monster';
 

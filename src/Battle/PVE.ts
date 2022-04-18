@@ -28,7 +28,7 @@ export default class PVE extends Battle {
   ): number {
     let maxLimit = 0;
 
-    while ((playerOne.lifePoints > 0 && enemies.lifePoints > 0) 
+    while ((playerOne.lifePoints >= 0 && enemies.lifePoints >= 0) 
     && maxLimit < 100) {
       playerOne.attack(enemies);
       enemies.attack(playerOne);

@@ -1,5 +1,5 @@
 import { pvp } from '../../src';
-import { PVP } from '../../src/Races';
+import { PVP } from '../../src/Battle';
 
 const func = (p: PVP) => { };
 func(pvp);
